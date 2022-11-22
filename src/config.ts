@@ -3,7 +3,7 @@ dotenv.config()
 const{ CLIENT_ID, GUILD_ID, DISCORD_TOKEN} = process.env;
 
 if (!CLIENT_ID || !GUILD_ID || !DISCORD_TOKEN){
-    throw new Error("Variaveis perdidas ");
+    throw new Error("missing variables");
 }
 
 const config: Record<string, string> ={
