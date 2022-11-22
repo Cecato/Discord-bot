@@ -31,7 +31,7 @@ export async function execute(interaction: CommandInteraction, client: Client){
     thread.send(`**User:** <@${user} **Problema:** ${problemDescription}`)
 
     return interaction.reply({
-        content: "Help is on the way!",
+        content: "A ajuda esta aqui!",
         ephemeral: true,
     })
 }
